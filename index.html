@@ -1,9 +1,12 @@
-<html>
-
-<div id="app">
-    <form>
-        <input id="file" type="file" name="file">
-    </form>
-</div>
+<body>
+  <h1>${title}</h1>
+  <p>${description}</p>
   
-</html>
+  <input id='$inputFile' type='file' />
+  <div>
+    <textarea id='$input' rows='8' cols='64'>hoge foo bar</textarea>
+  </div>
+  <a id='$btn' class='btn' download='sample.txt'>入力した内容を保存</a>
+
+  <script>${script}</script>
+</body>
